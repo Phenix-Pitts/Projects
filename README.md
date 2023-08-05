@@ -2,7 +2,7 @@
 
 ## Washington State EV Populations 2023
 
-**This is a project showcasing the amount of EVs that are registered in Washington State. Within the *WA_EV_POP_2023* folder, you will find the original CSV, as well as the SQL code used to answer the following questions**
+**This is a project showcasing the amount of EVs that are registered in Washington State. Within the *WA_EV_POP_2023* folder, you will find the original CSV, as well as the SQL code used to answer the questions below**
 
 1. What is the total number of vehicles under each make?
 2. How many different makes of EVs are registered in WA?
