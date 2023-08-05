@@ -1,3 +1,4 @@
 # Projects
- ##subheader
- Porfolio projects will be hosted here.
+
+##subheader
+Porfolio projects will be hosted here.
