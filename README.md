@@ -4,7 +4,7 @@
 
 **This is a project showcasing the number of EVs that are registered in Washington State. Within the *WA_EV_POP_2023* folder, you will find the original CSV, as well as the SQL code used to answer the questions below**
 
-1. What is the total number of vehicles under each make?
+1. What is the total number of vehicles under each make? | [Answer Link](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_Answers.md#what-is-the-total-number-of-vehickes-under-each-make)
 2. How many different makes of EVs are registered in WA?
 3. Which vehicle make is most popular in WA?
 4. How many EVs are registered and reside in WA?
