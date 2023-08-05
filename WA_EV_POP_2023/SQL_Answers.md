@@ -2,7 +2,8 @@
 
 ## What is the total number of vehickes under each make?
 
-#   | Vehicle Make | Vehicle Count |
+    | :---  | :--- |
+    | Vehicle Make | Vehicle Count |
     | BMW | 4656 |
     | TESLA	| 49941 |
     | NISSAN | 12848 |
