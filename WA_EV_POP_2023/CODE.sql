@@ -34,7 +34,7 @@ FROM
     ev_population_wa
 GROUP BY state
 ORDER BY COUNT(MAKE) DESC
-LIMIT 1
+LIMIT 1;
 
 --How many vehicles are registared in WA, but reside in other states?
 
@@ -44,7 +44,7 @@ FROM
     ev_population_wa
 WHERE
     state NOT LIKE 'WA'
-GROUP BY state
+GROUP BY state;
 
 
 --Which PHEV has the longest range?
@@ -58,7 +58,7 @@ FROM
 WHERE
     ev_type LIKE '%PHEV%'
 ORDER BY ev_range DESC
-LIMIT 1
+LIMIT 1;
 
 
 --Which BEV has the longest range?
@@ -72,7 +72,7 @@ FROM
 WHERE
     ev_type LIKE '%BEV%'
 ORDER BY ev_range DESC
-LIMIT 1
+LIMIT 1;
 
 --How many EV's are projected to be serviced by each utility comapny in the state of WA?
 
@@ -120,4 +120,4 @@ FROM
 WHERE
     state LIKE 'WA'
 GROUP BY city
-ORDER BY Reported_Vehicles
+ORDER BY Reported_Vehicles;
