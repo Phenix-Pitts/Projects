@@ -1,6 +1,6 @@
 # Projects
 
-## (https://github.com/Phenix-Pitts/Projects/blob/1fe4725b2d5d348945f309970be77d429df4f088/WA_EV_POP_2023/CODE.sql "Washington State EV Populations 2023")
+## [Washington State EV Population 2023] (https://github.com/Phenix-Pitts/Projects/blob/1fe4725b2d5d348945f309970be77d429df4f088/WA_EV_POP_2023/CODE.sql)
 
 **This is a project showcasing the amount of EVs that are registered in Washington State. Within the *WA_EV_POP_2023* folder, you will find the original CSV, as well as the SQL code used to answer the questions below**
 
