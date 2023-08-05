@@ -5,13 +5,13 @@
 **This is a project showcasing the number of EVs that are registered in Washington State. Within the *WA_EV_POP_2023* folder, you will find the original CSV, as well as the SQL code used to answer the questions below**
 
 1. What is the total number of vehicles under each make? | [Answer Link](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_Answers.md#what-is-the-total-number-of-vehickes-under-each-make)
-2. How many different makes of EVs are registered in WA?
-3. Which vehicle make is most popular in WA?
-4. How many EVs are registered and reside in WA?
-5. How many vehicles are registered in WA, but reside in other states?
-6. Which PHEV (Plug-in Hybrid Electric Vehicle) has the longest range?
-7. Which BEV (Battery Electric Vehicle) has the longest range?
-8. How many EVs are projected to be serviced by each utility company in the state of WA?
-9. Show the number of vehicles registered in each zipcode within WA.
+2. How many different makes of EVs are registered in WA? | [Answer Link](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_Answers.md#how-many-different-makes-of-evs-are-registered-in-wa)
+3. Which vehicle make is most popular in WA? | [Answer Link](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_Answers.md#which-vehicle-make-is-most-popular-in-wa)
+4. How many EVs are  both registered and reside in WA? | [Answer Link](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_Answers.md#how-many-evs-are-both-registered-and-reside-in-wa)
+5. How many vehicles are registered in WA, but reside in other states? Get a count of each individual state.| [Answer Link](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_Answers.md#how-many-vehicles-are-registered-in-wa-but-reside-in-other-states-get-a-count-of-each-individual-state)
+6. Which PHEV (Plug-in Hybrid Electric Vehicle) has the longest range? | [Answer Link](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_Answers.md#which-phev-has-the-longest-range)
+7. Which BEV (Battery Electric Vehicle) has the longest range? | [Answer Link](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_Answers.md#show-the-max-range-of-a-bev)
+8. How many EVs are projected to be serviced by each utility company in the state of WA? | [Answer Link](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_Answers.md#how-many-evs-are-projected-to-be-serviced-by-each-utility-comapny-in-the-state-of-wa)
+9. Show the number of vehicles registered in each city within WA. | [Answer Link](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_Answers.md#show-the-amount-of-vehicles-registared-in-each-city-within-wa)
 
 ### Stay Tuned for additional questions and future visualizations of this dataset. 
