@@ -1,6 +1,7 @@
 # SQL_Answers
 
-## What is the total number of vehickes under each make?
+## What is the total number of vehicles under each make?
+[CODE](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_CODE.md#what-is-the-total-number-of-vehicles-under-each-make)
 
 |Vehicle Make|Vehicle Count|
 |-----|-----|
