@@ -26,7 +26,7 @@ GROUP BY MAKE
 ORDER BY Vehicle_Count DESC
 LIMIT 1;
 
---How many EVs are registared and reside in WA?
+--How many EVs are registered and reside in WA?
 
 SELECT 
     state, COUNT(make)
@@ -36,7 +36,7 @@ GROUP BY state
 ORDER BY COUNT(MAKE) DESC
 LIMIT 1;
 
---How many vehicles are registared in WA, but reside in other states?
+--How many vehicles are registered in WA, but reside in other states?
 
 SELECT 
     state, COUNT(state) AS 'count'
@@ -74,7 +74,7 @@ WHERE
 ORDER BY ev_range DESC
 LIMIT 1;
 
---How many EV's are projected to be serviced by each utility comapny in the state of WA?
+--How many EV's are projected to be serviced by each utility company in the state of WA?
 
 SELECT
     CASE
@@ -111,7 +111,7 @@ GROUP BY
     END
 ORDER BY Reported_vehicles;
 
---Show the amount of vehicles registared in each zipcode within WA.
+--Show the number of vehicles registered in each zipcode within WA.
 SELECT 
     DISTINCT City,
     COUNT(*) AS 'Reported_Vehicles'
