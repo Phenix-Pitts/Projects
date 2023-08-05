@@ -4,6 +4,11 @@
 
 **This is a project showcasing the number of EVs that are registered in Washington State. Within the *WA_EV_POP_2023* folder, you will find the original CSV, as well as the SQL code used to answer the questions below**
 
+I obtained the dataset from Kaggle. I'm interested in EV population because of the growing demand for electric vehicles. Washington state is on a path to have 100% of new registered vehicles be electric by 2030. I wanted to see what the current population looked like. With this dataset, my goal is to show which city has the highest demand and the most popular EV brand and model within Washington.
+
+
+### Questions
+
 1. What is the total number of vehicles under each make? | [Answer Link](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_Answers.md#what-is-the-total-number-of-vehickes-under-each-make)
 2. How many different makes of EVs are registered in WA? | [Answer Link](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_Answers.md#how-many-different-makes-of-evs-are-registered-in-wa)
 3. Which vehicle make is most popular in WA? | [Answer Link](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_Answers.md#which-vehicle-make-is-most-popular-in-wa)
