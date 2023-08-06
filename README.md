@@ -4,7 +4,7 @@
 
 **This is a project showcasing the number of EVs that are registered in Washington State. Within the *WA_EV_POP_2023* folder, you will find the original CSV, as well as the SQL code used to answer the questions below**
 
-I obtained the dataset from Kaggle. I'm interested in EV population because of the growing demand for electric vehicles. Under the measure [Clean Cars 2030](https://www.coltura.org/washington-clean-cars/) Washington state is on a path to have 100% of new registered vehicles be electric by 2030. I wanted to see what the current population looked like. With this dataset, my goal is to show which city has the highest demand and the most popular EV brand and model within Washington.
+I obtained the dataset from Kaggle. I'm interested in EV population because of the growing demand for electric vehicles. Under the measure [Clean Cars 2030](https://www.coltura.org/washington-clean-cars/), Washington state is on a path to have 100% of new registered vehicles be electric by 2030. I wanted to see what the current population looked like. With this dataset, my goal is to show which city has the highest demand and the most popular EV brand and model within Washington.
 
 
 ### Questions
