@@ -53,7 +53,7 @@
 |-----|-----|
 |TESLA|49941|
 
-## How many Ev's are both registered and reside in WA?
+## How many EV's are both registered and reside in WA?
 
 |State|Count(make)|
 |-----|-----|

@@ -1,6 +1,6 @@
 --WA_EV_Population 2023
 
---What is the total number of vehickes under each make?
+--What is the total number of vehicles under each make?
 
 SELECT 
 	make AS 'Vehicle Make',
