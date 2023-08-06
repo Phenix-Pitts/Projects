@@ -131,7 +131,7 @@ GROUP BY
 ORDER BY Reported_vehicles;
 ```
 
-## Show the number of vehicles registered in each zipcode within WA.
+## Show the number of vehicles registered in each city within WA.
 
 ```
 SELECT 

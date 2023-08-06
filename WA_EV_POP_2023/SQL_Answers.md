@@ -42,24 +42,27 @@
 
 
 ## How many different makes of EVs are registered in WA?
+[CODE](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_CODE.md#how-many-different-makes-of-evs-are-registered-in-wa)
 
 |Vehicle Make Count|
 |-----|
 |34|
 
 ## Which vehicle make is most popular in WA?
+[CODE](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_CODE.md#which-vehicle-make-is-most-popular-in-wa)
 
 |Vehicle_Make|Vehicle_Count|
 |-----|-----|
 |TESLA|49941|
 
 ## How many EV's are both registered and reside in WA?
-
+[CODE](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_CODE.md#how-many-evs-are-registered-and-reside-in-wa)
 |State|Count(make)|
 |-----|-----|
 |WA|109205|
 
 ## How many vehicles are registered in WA, but reside in other states? Get a count of each individual state.
+[Code](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_CODE.md#how-many-vehicles-are-registered-in-wa-but-reside-in-other-states-get-a-count-of-each-individual-state)
 
 |State|Count|
 |-----|-----|
@@ -108,16 +111,21 @@
 |WI|1|
 
 ## Which PHEV has the longest range?
+[CODE](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_CODE.md#which-phev-has-the-longest-range)
+
 |model|ev_type|ev_range|
 |-----|------|------|
 |2021 BMW I3|Plug-in Hybrid Electric Vehicle (PHEV)|153|
 
-## Show the max range of a BEV		
+## Which BEV has the longest range?
+[CODE](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_CODE.md#which-bev-has-the-longest-range)
+
 |model|ev_type|ev_range|
 |-----|-----|------|
 |2020 TESLA MODEL S|Battery Electric Vehicle (BEV)|337|
 
 ## How many EV's are projected to be serviced by each utility comapny in the state of WA?
+[CODE](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_CODE.md#how-many-evs-are-projected-to-be-serviced-by-each-utility-company-in-the-state-of-wa)
 
 |Power_Companies|Reported_Vehicles|
 |-----|-----|
@@ -135,6 +143,7 @@
 |Puget Sound Energy INC|63189|
 
 ## Show the amount of vehicles registared in each city within WA.
+[CODE]()
 
 |# City|Reported_Vehicles|
 |-----|-----|
