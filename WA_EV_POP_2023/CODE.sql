@@ -7,8 +7,10 @@ SELECT
     COUNT(make) AS 'Vehicle Count'
 FROM 
 	ev_population_wa
-GROUP BY
-	make;
+GROUP BY 
+    make
+ORDER BY
+    COUNT(make);
 
 --How many different makes of EVs are registered in WA?
 
@@ -22,8 +24,10 @@ SELECT
     make AS 'Vehicle_Make', COUNT(make) AS 'Vehicle_Count'
 FROM
     ev_population_wa
-GROUP BY MAKE
-ORDER BY Vehicle_Count DESC
+GROUP BY
+    MAKE
+ORDER BY
+    Vehicle_Count DESC
 LIMIT 1;
 
 --How many EVs are registered and reside in WA?
@@ -32,8 +36,10 @@ SELECT
     state, COUNT(make)
 FROM
     ev_population_wa
-GROUP BY state
-ORDER BY COUNT(MAKE) DESC
+GROUP BY 
+    state
+ORDER BY 
+    COUNT(MAKE) DESC
 LIMIT 1;
 
 --How many vehicles are registered in WA, but reside in other states?
@@ -44,7 +50,10 @@ FROM
     ev_population_wa
 WHERE
     state NOT LIKE 'WA'
-GROUP BY state;
+GROUP BY 
+    state
+ORDER BY
+    count;
 
 
 --Which PHEV has the longest range?
@@ -57,7 +66,8 @@ FROM
     ev_population_wa
 WHERE
     ev_type LIKE '%PHEV%'
-ORDER BY ev_range DESC
+ORDER BY 
+    ev_range DESC
 LIMIT 1;
 
 
@@ -71,7 +81,8 @@ FROM
     ev_population_wa
 WHERE
     ev_type LIKE '%BEV%'
-ORDER BY ev_range DESC
+ORDER BY 
+    ev_range DESC
 LIMIT 1;
 
 --How many EV's are projected to be serviced by each utility company in the state of WA?
@@ -109,7 +120,8 @@ GROUP BY
         WHEN Electric_Utility LIKE 'CITY OF TACOMA%' THEN 'CITY OF TACOMA'
         WHEN Electric_Utility LIKE 'CITY OF CHEWELAH' THEN 'CITY OF CHEWELAH'
     END
-ORDER BY Reported_vehicles;
+ORDER BY 
+    Reported_vehicles;
 
 --Show the number of vehicles registered in each zipcode within WA.
 SELECT 
@@ -119,5 +131,7 @@ FROM
     ev_population_wa
 WHERE
     state LIKE 'WA'
-GROUP BY city
-ORDER BY Reported_Vehicles;
+GROUP BY 
+    city
+ORDER BY 
+    Reported_Vehicles;

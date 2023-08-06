@@ -5,40 +5,41 @@
 
 |Vehicle Make|Vehicle Count|
 |-----|-----|
-|BMW|4656|
-|TESLA|49941|
-|NISSAN|12848|
-|FORD|5658|
-|CHEVROLET|10065|
-|VOLKSWAGEN|2375|
-|SMART|273|
-|TOYOTA|4336|
-|FIAT|822|
-|CHRYSLER|1783|
-|KIA|4375|
-|VOLVO|2440|
-|HYUNDAI|1289|
-|MERCEDES-BENZ|458|
-|PORSCHE|807|
-|RIVIAN|717|
-|AUDI|2298|
-|MINI|613|
-|SUBARU|58|
-|HONDA|794|
-|JEEP|1105|
-|MITSUBISHI|588|
-|POLESTAR|533|
-|LINCOLN|155|
-|JAGUAR|222|
-|CADILLAC|108|
-|LAND ROVER|38|
-|LEXUS|31|
+|BENTLEY|3|
+|TH!NK|3|
+|AZURE DYNAMICS|7|
 |GENESIS|13|
 |FISKER|20|
-|TH!NK|3|
+|LEXUS|31|
+|LAND ROVER|38|
 |LUCID MOTORS|48|
-|BENTLEY|3|
-|AZURE DYNAMICS|7|
+|SUBARU|58|
+|CADILLAC|108|
+|LINCOLN|155|
+|JAGUAR|222|
+|SMART|273|
+|MERCEDES-BENZ|458|
+|POLESTAR|533|
+|MITSUBISHI|588|
+|MINI|613|
+|RIVIAN|717|
+|HONDA|794|
+|PORSCHE|807|
+|FIAT|822|
+|JEEP|1105|
+|HYUNDAI|1289|
+|CHRYSLER|1783|
+|AUDI|2298|
+|VOLKSWAGEN|2375|
+|VOLVO|2440|
+|TOYOTA|4336|
+|KIA|4375|
+|BMW|4656|
+|FORD|5658|
+|CHEVROLET|10065|
+|NISSAN|12848|
+|TESLA|49941|
+
 
 
 ## How many different makes of EVs are registered in WA?
@@ -64,51 +65,51 @@
 ## How many vehicles are registered in WA, but reside in other states? Get a count of each individual state.
 [Code](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_CODE.md#how-many-vehicles-are-registered-in-wa-but-reside-in-other-states-get-a-count-of-each-individual-state)
 
-|State|Count|
+|state|count|
 |-----|-----|
-|CO|9|
-|CA|72|
-|CT|6|
-|VA|36|
-|FL|7|
-|TX|15|
-|PA|5|
-|NY|3|
-|AZ|7|
-|IL|6|
-|GA|6|
-|NE|5|
-|MD|26|
-|WY|2|
-|TN|3|
-|NJ|3|
-|NV|7|
-|MA|3|
-|NC|6|
-|MO|3|
-|KS|3|
-|UT|4|
-|SC|4|
-|KY|1|
-|ME|1|
-|HI|3|
-|OR|6|
-|DC|5|
 |OK|1|
+|AL|1|
+|ME|1|
+|KY|1|
 |NH|1|
-|AR|3|
-|OH|2|
 |NM|1|
 |MN|1|
 |RI|1|
 |ID|1|
 |AK|1|
-|AL|1|
 |MS|1|
 |ND|1|
 |SD|1|
 |LA|1|
 |WI|1|
+|WY|2|
+|OH|2|
+|MA|3|
+|KS|3|
+|HI|3|
+|NY|3|
+|MO|3|
+|TN|3|
+|NJ|3|
+|AR|3|
+|SC|4|
+|UT|4|
+|DC|5|
+|PA|5|
+|NE|5|
+|NC|6|
+|OR|6|
+|GA|6|
+|CT|6|
+|IL|6|
+|AZ|7|
+|FL|7|
+|NV|7|
+|CO|9|
+|TX|15|
+|MD|26|
+|VA|36|
+|CA|72|
 
 ## Which PHEV has the longest range?
 [CODE](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_CODE.md#which-phev-has-the-longest-range)

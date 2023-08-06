@@ -7,7 +7,9 @@ SELECT
 FROM 
 	ev_population_wa
 GROUP BY
-	make;
+	make
+ORDER BY 
+    COUNT(make);
 ```
 ## How many different makes of EVs are registered in WA?
 
@@ -16,16 +18,8 @@ SELECT
 	COUNT(DISTINCT make) AS 'Vehicle Make Count'
 FROM	
 	ev_population_wa;
-
---Which vehicle make is most popular in WA?
-SELECT 
-    make AS 'Vehicle_Make', COUNT(make) AS 'Vehicle_Count'
-FROM
-    ev_population_wa
-GROUP BY MAKE
-ORDER BY Vehicle_Count DESC
-LIMIT 1;
 ```
+
 ## Which vehicle make is most popular in WA?
 
 ```
@@ -33,8 +27,10 @@ SELECT
     make AS 'Vehicle_Make', COUNT(make) AS 'Vehicle_Count'
 FROM
     ev_population_wa
-GROUP BY MAKE
-ORDER BY Vehicle_Count DESC
+GROUP BY 
+    MAKE
+ORDER BY 
+    Vehicle_Count DESC
 LIMIT 1;
 ```
 
@@ -45,8 +41,10 @@ SELECT
     state, COUNT(make)
 FROM
     ev_population_wa
-GROUP BY state
-ORDER BY COUNT(MAKE) DESC
+GROUP BY 
+    state
+ORDER BY 
+    COUNT(make) DESC
 LIMIT 1;
 ```
 
@@ -59,7 +57,10 @@ FROM
     ev_population_wa
 WHERE
     state NOT LIKE 'WA'
-GROUP BY state;
+GROUP BY
+    state
+ORDER BY
+    count;
 ```
 
 ## Which PHEV has the longest range?
@@ -73,7 +74,8 @@ FROM
     ev_population_wa
 WHERE
     ev_type LIKE '%PHEV%'
-ORDER BY ev_range DESC
+ORDER BY
+    ev_range DESC
 LIMIT 1;
 ```
 
@@ -88,7 +90,8 @@ FROM
     ev_population_wa
 WHERE
     ev_type LIKE '%BEV%'
-ORDER BY ev_range DESC
+ORDER BY 
+    ev_range DESC
 LIMIT 1;
 ```
 
@@ -128,7 +131,8 @@ GROUP BY
         WHEN Electric_Utility LIKE 'CITY OF TACOMA%' THEN 'CITY OF TACOMA'
         WHEN Electric_Utility LIKE 'CITY OF CHEWELAH' THEN 'CITY OF CHEWELAH'
     END
-ORDER BY Reported_vehicles;
+ORDER BY 
+    Reported_vehicles;
 ```
 
 ## Show the number of vehicles registered in each city within WA.
@@ -141,6 +145,8 @@ FROM
     ev_population_wa
 WHERE
     state LIKE 'WA'
-GROUP BY city
-ORDER BY Reported_Vehicles;
+GROUP BY 
+    city
+ORDER BY 
+    Reported_Vehicles;
 ```
