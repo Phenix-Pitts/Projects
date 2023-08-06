@@ -143,7 +143,7 @@
 |Puget Sound Energy INC|63189|
 
 ## Show the amount of vehicles registared in each city within WA.
-[CODE]()
+[CODE](https://github.com/Phenix-Pitts/Projects/blob/Phenix/WA_EV_POP_2023/SQL_CODE.md#show-the-number-of-vehicles-registered-in-each-city-within-wa)
 
 |# City|Reported_Vehicles|
 |-----|-----|
